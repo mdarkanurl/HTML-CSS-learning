@@ -1,0 +1,15 @@
+@font-face{
+    src: url(font/Poppins-ExtraLight.ttf);
+    font-family: Poppins-ExtraLight;
+}
+
+h1{
+    font-family: Poppins-ExtraLight, arial, Tahoma, sans-serif;
+}
+
+p{
+    font-family: "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
