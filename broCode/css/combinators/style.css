@@ -1,0 +1,14 @@
+#container{
+    border: 2px solid;
+}
+
+/* Combinators = explains the relationship between listed selectors
+  = descendant
+> = child
+~ = general sibling
++ = adjacent sibling
+*/
+
+#container + p{
+    background-color: green;
+}
