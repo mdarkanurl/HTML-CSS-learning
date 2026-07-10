@@ -36,3 +36,7 @@ img, picture, svg {
     display: block;
 }
 
+.wrapper {
+    width: min(calc(100% - 48px), calc(1200 / 16 * 1rem));
+    margin-inline: auto;
+}
