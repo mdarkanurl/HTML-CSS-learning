@@ -119,5 +119,15 @@
         width: 1px;
         height: 1px;
         overflow: hidden;
+
+        &.skip:focus {
+            left: 0;
+            width: auto;
+            height: auto;
+            background: #fff;
+            padding: 8px;
+            border: 1px solid;
+            margin: 5px;
+        }
     }
 }
