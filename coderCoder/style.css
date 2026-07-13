@@ -112,14 +112,26 @@
     .topnav {
         background-color: var(--color-header-bg);
 
+        .topnav__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
         .topnav__homelink {}
 
         .topnav__logo {
         }
 
         .topnav__links {
+            display: flex;
+            gap: 20px;
             list-style-type: none;
             padding: 0;
+
+            @media (width >= calc(600 / 16 * 1rem)) {
+                gap: 40px;
+            }
         }
 
         .topnav__item {}
