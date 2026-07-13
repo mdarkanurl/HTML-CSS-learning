@@ -53,6 +53,7 @@
         --color-main-bg: var(--c-white);
         --color-text-dark: var(--c-gray-dark);
         --color-text-light: var(--c-white);
+        --color-header-bg: var(--c-purple);
         --color-hero-bg: var(--c-purple);
         --color-button-primary-bg: var(--c-teal);
         --color-button-primary-text: var(--c-gray-dark);
@@ -108,7 +109,29 @@
 }
 
 @layer component {
+    .topnav {
+        background-color: var(--color-header-bg);
 
+        .topnav__homelink {}
+
+        .topnav__logo {
+        }
+
+        .topnav__links {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .topnav__item {}
+
+        .topnav__link {
+            font-size: var(--font-size-topnav);
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: var(--color-text-light);
+        }
+    }
 }
 
 @layer utility {
